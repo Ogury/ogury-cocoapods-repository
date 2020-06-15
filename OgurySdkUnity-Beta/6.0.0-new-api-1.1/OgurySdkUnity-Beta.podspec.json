@@ -1,0 +1,24 @@
+{
+  "name": "OgurySdkUnity-Beta",
+  "summary": "Unity plugins for the Ogury SDK.",
+  "license": {
+    "type": "COMMERCIAL",
+    "text": "Copyright (c) Ogury Ltd. All rights reserved."
+  },
+  "homepage": "https://docs.ogury.co/unity",
+  "authors": {
+    "Ogury Ltd.": "contact-paris@ogury.co"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "OguryAds-Beta": "~>2.1.3",
+    "OguryConsentManager-Beta": "~>2.1.3"
+  },
+  "version": "6.0.0-new-api-1.1",
+  "vendored_frameworks": "OgurySdkUnity-Beta.framework",
+  "source": {
+    "http": "https://binaries.ogury.co/beta/unity/6.0.0-new-api-1.1/OgurySdkUnity-Beta-iOS.tar.gz"
+  }
+}
