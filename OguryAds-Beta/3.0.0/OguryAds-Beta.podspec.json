@@ -28,7 +28,7 @@
   "weak_frameworks": "CoreTelephony",
   "vendored_frameworks": "OguryAds.xcframework",
   "source": {
-    "http": "https://binaries.ogury.coo/beta/ads-ios/beta-3.0.0-AdsV3-0.0.14/OguryAds-Beta-3.0.0.tar.gz"
+    "http": "https://binaries.ogury.co/beta/ads-ios/beta-3.0.0-AdsV3-0.0.15/OguryAds-Beta-3.0.0.tar.gz"
   },
   "requires_arc": true,
   "libraries": "z",
