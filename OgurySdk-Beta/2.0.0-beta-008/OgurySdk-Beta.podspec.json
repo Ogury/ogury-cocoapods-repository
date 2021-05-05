@@ -1,0 +1,48 @@
+{
+  "name": "OgurySdk-Beta",
+  "summary": "Ogury SDK",
+  "description": "Ogury SDK",
+  "version": "2.0.0-beta-008",
+  "authors": {
+    "Ogury Ltd.": "contact-paris@ogury.co"
+  },
+  "homepage": "https://www.ogury.com",
+  "documentation_url": "https://docs.ogury.co/",
+  "social_media_url": "https://www.facebook.com/weareogury",
+  "license": {
+    "type": "COMMERCIAL",
+    "text": "\tCopyright (c) Ogury Ltd. All rights reserved.\n"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "vendored_frameworks": ["OgurySdk.xcframework"],
+  "dependencies": {
+    "OguryCore-Beta": [
+      "0.2.1-beta-001"
+    ]
+  },
+  "default_subspecs": ["OguryAds", "OguryChoiceManager"],
+  "subspecs": [
+    {
+      "name": "OguryAds",
+      "dependencies": {
+        "OguryAds-Beta": [
+          "3.0.0-beta-001"
+        ]
+      }
+    },
+    {
+      "name": "OguryChoiceManager",
+      "dependencies": {
+        "OguryChoiceManager-Beta": [
+          "4.0.0-beta-003"
+        ]
+      }
+    }
+  ],
+  "source": {
+    "http": "https://binaries.ogury.co/beta/ios/beta-2.0.0-beta-008/OgurySdk-Beta-2.0.0-beta-008.tar.gz"
+  }
+}
