@@ -1,0 +1,46 @@
+{
+  "name": "OguryAds-Beta",
+  "version": "3.0.0-beta-1.0.4",
+  "summary": "Ogury Ads SDK",
+  "description": "Ogury Ads SDK.",
+  "homepage": "https://docs.ogury.co/ios/",
+  "authors": {
+    "Ogury Ltd.": "contact-paris@ogury.co"
+  },
+  "license": {
+    "type": "COMMERCIAL",
+    "text": "\tCopyright (c) Ogury Ltd. All rights reserved.\n"
+  },
+  "subspecs": [
+    {
+      "name": "OMID",
+      "vendored_frameworks": "OMSDK_Oguryco.framework"
+    }
+  ],
+  "default_subspecs": [
+    "OMID"
+  ],
+  "frameworks": [
+    "AdSupport",
+    "SystemConfiguration",
+    "UIKit"
+  ],
+  "weak_frameworks": "CoreTelephony",
+  "vendored_frameworks": "OguryAds.xcframework",
+  "source": {
+    "http": "https://binaries.ogury.co/beta/ads-ios/beta-3.0.0-beta-1.0.4/OguryAds-Beta-3.0.0-beta-1.0.4.tar.gz"
+  },
+  "requires_arc": true,
+  "libraries": "z",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 arm64e armv7 armv7s",
+    "EXCLUDED_ARCHS[sdk=iphoneos*]": "i386 x86_64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 arm64e armv7 armv7s",
+    "EXCLUDED_ARCHS[sdk=iphoneos*]": "i386 x86_64"
+  }
+}
