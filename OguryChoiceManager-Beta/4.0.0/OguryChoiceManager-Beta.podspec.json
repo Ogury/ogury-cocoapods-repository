@@ -1,13 +1,14 @@
 {
   "name": "OguryChoiceManager-Beta",
-  "summary": "Ogury Choice Manager",
-  "description": "Ogury Choice Manager",
+  "summary": "Ogury Choice Manager SDK",
+  "description": "Ogury CM SDK",
+  "version": "4.0.0",
   "authors": {
     "Ogury Ltd.": "contact-paris@ogury.co"
   },
   "homepage": "https://www.ogury.com",
-  "social_media_url": "https://www.facebook.com/weareogury",
   "documentation_url": "https://docs.ogury.co/",
+  "social_media_url": "https://www.facebook.com/weareogury",
   "license": {
     "type": "COMMERCIAL",
     "text": "\tCopyright (c) Ogury Ltd. All rights reserved.\n"
@@ -15,29 +16,14 @@
   "platforms": {
     "ios": "10.0"
   },
-  "frameworks": [
-    "AdSupport",
-    "SystemConfiguration",
-    "UIKit"
-  ],
-  "weak_frameworks": [
-    "CoreTelephony"
-  ],
-  "libraries": "z",
   "requires_arc": true,
-  "version": "4.0.0",
-  "vendored_frameworks": "OguryChoiceManager.xcframework",
-  "screenshots": [
-    "https://ogury.com/wp-content/themes/fableco/img/choice-manager/laptop1.jpg",
-    "https://ogury.com/wp-content/themes/fableco/img/choice-manager/slider1-a.jpg",
-    "https://ogury.com/wp-content/themes/fableco/img/choice-manager/slider2-a.jpg"
-  ],
-  "source": {
-    "http": "https://ogury-sdk-binaries.ogury.co/beta/ogury-choice-manager-ios/beta-4.0.0-cocoapodsV2-0.0.5/OguryChoiceManager-Beta-4.0.0.tar.gz"
-  },
+  "vendored_frameworks": ["OguryChoiceManager.xcframework"],
   "dependencies": {
     "OguryCore-Beta": [
-      "~> 0.1"
+      "1.0.0"
     ]
+  },
+  "source": {
+    "http": "https://binaries.ogury.co/beta/choice-manager-ios/beta-4.0.0-beta-1.0.6/OguryChoiceManager-Beta-4.0.0.tar.gz"
   }
 }
