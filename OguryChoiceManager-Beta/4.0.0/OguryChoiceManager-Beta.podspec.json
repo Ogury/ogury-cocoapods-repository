@@ -20,10 +20,10 @@
   "vendored_frameworks": ["OguryChoiceManager.xcframework"],
   "dependencies": {
     "OguryCore-Beta": [
-      "1.0.0"
+      "1.2.0-beta-1.0.0"
     ]
   },
   "source": {
-    "http": "https://binaries.ogury.co/beta/choice-manager-ios/beta-4.0.0-beta-1.0.6/OguryChoiceManager-Beta-4.0.0.tar.gz"
+    "http": "https://binaries.ogury.co/beta/choice-manager-ios/4.0.0/OguryChoiceManager-Beta-4.0.0.tar.gz"
   }
 }
