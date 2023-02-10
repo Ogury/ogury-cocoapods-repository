@@ -20,7 +20,7 @@
     "ios": "10.0"
   },
   "dependencies": {
-    "OgurySdk-Beta": "4.1.0-beta-1.0.0",
+    "OgurySdk-Beta": "4.1.0-beta-1.0.1",
     "Google-Mobile-Ads-SDK": "~>9"
   },
   "pod_target_xcconfig": {
