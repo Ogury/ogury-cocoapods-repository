@@ -35,7 +35,7 @@
   "version": "3.5.2",
   "vendored_frameworks": "OguryAds.xcframework",
   "dependencies": {
-    "OguryCore-Beta": [
+    "OguryCore": [
       "1.4.0"
     ]
   },
