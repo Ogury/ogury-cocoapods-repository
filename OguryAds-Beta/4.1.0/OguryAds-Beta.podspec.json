@@ -1,0 +1,28 @@
+{
+    "name": "OguryAds-Beta",
+    "summary": "Ogury Ads SDK",
+    "description": "Ogury Ads SDK.",
+    "authors": {
+        "Ogury Ltd.": "contact-paris@ogury.co"
+    },
+    "homepage": "https://docs.ogury.co",
+    "license": {
+        "type": "COMMERCIAL",
+        "text": "\tCopyright (c) Ogury Ltd. All rights reserved.\n"
+    },
+    "platforms": {
+        "ios": "12.0"
+    },
+    "frameworks": ["AdSupport", "SystemConfiguration", "UIKit"],
+    "weak_frameworks": ["CoreTelephony"],
+    "subspecs": [{ "name": "OMID", "vendored_frameworks": "OMSDK_Ogury.xcframework" }],
+    "default_subspecs": ["OMID"],
+    "libraries": "z",
+    "requires_arc": true,
+    "version": "4.1.0",
+    "vendored_frameworks": "OguryAds.xcframework",
+    "dependencies": {"OguryCore-Beta": ["2.1.0"]},
+    "source": {
+        "http": "https://binaries.ogury.co/beta/ads-ios/4.1.0/OguryAds-Beta-4.1.0.tar.gz"
+    }
+}
