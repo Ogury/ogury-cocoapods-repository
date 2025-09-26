@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ogury-cocoapods-repository
+  title: ogury-cocoapods-repository
+  description: Repository for CocoaPods management of beta builds
+  annotations:
+    github.com/project-slug: Ogury/ogury-cocoapods-repository
+  tags:
+    - sdk
+    - ios
+    - repository
+    - cocoapods
+    - beta
+spec:
+  type: tooling
+  owner: group:default/inapp
+  lifecycle: production
